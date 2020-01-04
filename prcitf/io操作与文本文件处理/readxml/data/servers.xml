@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<servers version="1">
+    <server>
+        <serverName testAttr="liuhaotestAttr">Shanghai_VPN</serverName>
+        <serverIP>127.0.0.1</serverIP>
+    </server>
+    <server>
+        <serverName>Beijing_VPN</serverName>
+        <serverIP>127.0.0.2</serverIP>
+    </server>
+    <default/>
+    <TestNoMatch>testnomatch</TestNoMatch>
+    <default1>default1</default1>
+    <default2>default2</default2>
+    <default3>
+        <default4>
+            <deep>
+                deep
+            </deep>
+        </default4>
+    </default3>
+    <!-- 注释 -->
+</servers>

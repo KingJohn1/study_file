@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="exportConfig" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="exportConfig">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ServiceSequence" type="xs:string" minOccurs="0" />
+                <xs:element name="Sequence" type="xs:string" minOccurs="0" />
+                <xs:element name="MOCName" type="xs:string" minOccurs="0" />
+                <xs:element name="CommandName" type="xs:string" minOccurs="0" />
+                <xs:element name="IdentityAttribute" type="xs:string" minOccurs="0" />
+                <xs:element name="IdentifyingAttributeValues" type="xs:string" minOccurs="0" />
+                <xs:element name="ObjectRelation" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <exportConfig>
+    <ServiceSequence>35</ServiceSequence>
+    <Sequence />
+    <MOCName>FILTERGP</MOCName>
+    <CommandName>ADD FILTERGP</CommandName>
+    <IdentityAttribute />
+    <IdentifyingAttributeValues />
+    <ObjectRelation />
+  </exportConfig>
+  <exportConfig>
+    <ServiceSequence>35</ServiceSequence>
+    <Sequence />
+    <MOCName>FILTERGPMEMBER</MOCName>
+    <CommandName>ADD FILTERGPMEMBER</CommandName>
+    <IdentityAttribute />
+    <IdentifyingAttributeValues />
+    <ObjectRelation />
+  </exportConfig>
+  <exportConfig>
+    <ServiceSequence>35</ServiceSequence>
+    <Sequence />
+    <MOCName>UPFILTER</MOCName>
+    <CommandName>ADD UPFILTER</CommandName>
+    <IdentityAttribute />
+    <IdentifyingAttributeValues />
+    <ObjectRelation />
+  </exportConfig>
+</NewDataSet>
