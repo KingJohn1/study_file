@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="module" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="module">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:string" minOccurs="0" />
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="ch_name" type="xs:string" minOccurs="0" />
+                <xs:element name="eng_name" type="xs:string" minOccurs="0" />
+                <xs:element name="strong_dep" type="xs:string" minOccurs="0" />
+                <xs:element name="weak_dep" type="xs:string" minOccurs="0" />
+                <xs:element name="isStockModule" type="xs:string" minOccurs="0" />
+                <xs:element name="module_version" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <module>
+    <id>9026</id>
+    <name>UPC</name>
+    <ch_name>UPC模块</ch_name>
+    <eng_name>UPC</eng_name>
+    <strong_dep />
+    <weak_dep />
+    <isStockModule>5G</isStockModule>
+    <module_version>2018-07-10</module_version>
+  </module>
+</NewDataSet>

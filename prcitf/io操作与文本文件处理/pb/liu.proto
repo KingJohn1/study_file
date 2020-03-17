@@ -1,0 +1,14 @@
+syntax = "proto2";
+package packet;
+message Header{
+    required string messageId = 1;
+    required string topic = 2;
+}
+message BytesMessage{
+    required Header  header= 1;
+    required  bytes body = 2;    
+}
+message StringMessage{
+    required Header header = 1;
+    required string body = 2;
+}

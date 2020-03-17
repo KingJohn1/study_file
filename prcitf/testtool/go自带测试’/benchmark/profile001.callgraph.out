@@ -1,0 +1,247 @@
+positions: instr line
+events: cpu(ms)
+
+ob=
+fl=(1) C:\Go1.12.4\src\testing\benchmark.go
+fn=(1) testing.(*PB).Next
+0x4fecde 609 4340
++37 619 1130
+
+ob=
+fl=(2) D:\GO\src\prcitf\testtool\go自带测试’\benchmark\bench_test.go
+fn=(2) prcitf/testtool/go%e8%87%aa%e5%b8%a6%e6%b5%8b%e8%af%95%e2%80%99/benchmark.Benchmark学习.func1
++9 28 870
+
+ob=
+fl=(1)
+fn=(1)
+-51 609 230
++46 619 160
+
+ob=
+fl=(3) C:\Go1.12.4\src\runtime\cgocall.go
+fn=(3) runtime.cgocall
+0x403e85 130 20
+
+ob=
+fl=(1)
+fn=(1)
+0x4fecef 610 20
+-15 610 10
+
+ob=
+fl=(4) C:\Go1.12.4\src\runtime\proc.go
+fn=(4) runtime.main
+-847525 200 0
+cfl=(5) _testmain.go
+cfn=(5) main.main
+calls=0 +644 42
+* * 10
+
+ob=
+fl=(6) C:\Go1.12.4\src\runtime\syscall_windows.go
+fn=(6) syscall.Syscall6
++100993 197 0
+cfl=(3)
+cfn=(3)
+calls=0 -180150 130
+* * 20
+
+ob=
+fl=(7) C:\Go1.12.4\src\syscall\zsyscall_windows.go
+fn=(7) syscall.WriteConsole
++125369 1298 0
+cfl=(6)
+cfn=(6)
+calls=0 * 197
+* * 20
+
+ob=
+fl=(8) C:\Go1.12.4\src\internal\poll\fd_windows.go
+fn=(8) internal/poll.(*FD).Write
++79589 678 0
+cfl=(8)
+cfn=(9) internal/poll.(*FD).writeConsole
+calls=0 +80893 737
+* * 20
+
+ob=
+fl=(8)
+fn=(9)
++1304 737 0
+cfl=(7)
+cfn=(7)
+calls=0 -79589 1298
+* * 20
+
+ob=
+fl=(9) C:\Go1.12.4\src\os\file.go
+fn=(10) os.(*File).Write
++6999 145 0
+cfl=(10) C:\Go1.12.4\src\os\file_windows.go
+cfn=(11) os.(*File).write
+calls=0 +7044 224
+* * 20
+
+ob=
+fl=(10)
+fn=(11)
++45 224 0
+cfl=(8)
+cfn=(8)
+calls=0 -8303 678
+* * 20
+
+ob=
+fl=(11) C:\Go1.12.4\src\fmt\print.go
+fn=(12) fmt.Fprintln
++189227 266 0
+cfl=(9)
+cfn=(10)
+calls=0 -45 145
+* * 20
+
+ob=
+fl=(1)
+fn=(13) testing.(*B).runN
++72152 176 0
+cfl=(1)
+cfn=(14) testing.runBenchmarks.func1
+calls=0 +112157 455
+* * 10
+cfl=(2)
+cfn=(15) prcitf/testtool/go%e8%87%aa%e5%b8%a6%e6%b5%8b%e8%af%95%e2%80%99/benchmark.Benchmark学习
+calls=0 +343858 24
+* * 10
+
+ob=
+fl=(1)
+fn=(16) testing.(*B).run
++1457 286 0
+cfl=(1)
+cfn=(17) testing.(*benchContext).processBench
+calls=0 +7095 498
+* * 10
+
+ob=
+fl=(1)
+fn=(18) testing.(*B).launch
++445 328 0
+cfl=(1)
+cfn=(13)
+calls=0 -1457 176
+* * 10
+
+ob=
+fl=(1)
+fn=(19) testing.runBenchmarks
++3006 461 0
+cfl=(1)
+cfn=(13)
+calls=0 -1902 176
+* * 10
+
+ob=
+fl=(1)
+fn=(17)
++2187 498 0
+cfl=(11)
+cfn=(12)
+calls=0 -77060 266
+* * 10
+
+ob=
+fl=(1)
+fn=(20) testing.(*B).Run
++1795 554 0
+cfl=(1)
+cfn=(16)
+calls=0 -5638 286
+* * 10
+
+ob=
+fl=(12) C:\Go1.12.4\src\testing\testing.go
+fn=(21) testing.(*M).Run
++20358 1078 0
+cfl=(1)
+cfn=(19)
+calls=0 -3982 461
+* * 10
+
+ob=
+fl=(1)
+fn=(14)
++10757 455 0
+cfl=(1)
+cfn=(20)
+calls=0 -20358 554
+* * 10
+
+ob=
+fl=(1)
+fn=(22) testing.(*B).RunParallel.func1
++207 665 0
+cfl=(2)
+cfn=(2)
+calls=0 +231834 28
+* * 5890
+cfl=(2)
+cfn=(2)
+calls=0 +231886 28
+* * 870
+
+ob=
+fl=(2)
+fn=(15)
++231494 24 0
+cfl=(11)
+cfn=(23) fmt.Println
+calls=0 +231553 275
+* * 10
+
+ob=
+fl=(11)
+fn=(23)
++59 275 0
+cfl=(11)
+cfn=(12)
+calls=0 -343858 266
+* * 10
+
+ob=
+fl=(2)
+fn=(2)
++74 28 0
+cfl=(1)
+cfn=(1)
+calls=0 +80 609
+* * 4340
+cfl=(1)
+cfn=(1)
+calls=0 +117 619
+* * 1130
+cfl=(1)
+cfn=(1)
+calls=0 +75 609
+* * 230
+cfl=(1)
+cfn=(1)
+calls=0 +121 619
+* * 160
+cfl=(1)
+cfn=(1)
+calls=0 +97 610
+* * 20
+cfl=(1)
+cfn=(1)
+calls=0 +82 610
+* * 10
+
+ob=
+fl=(5)
+fn=(5)
++652 42 0
+cfl=(12)
+cfn=(21)
+calls=0 -242591 1078
+* * 10
